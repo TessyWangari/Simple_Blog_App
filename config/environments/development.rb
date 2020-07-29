@@ -63,7 +63,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
    # Allow connections to local server.
   config.hosts.clear
-  config.web_console.whitelisted_ips = '41.80.243.4'
+  config.web_console.whitelisted_ips = '41.80.243.4','102.222.222.247'
 
 
 end
